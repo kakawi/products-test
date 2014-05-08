@@ -5,6 +5,7 @@ $products = new Products('data.xml');
 
 $products->setSum($sum);
 $products->findGoods();
+    sleep(3);
 echo $products->getResult();
 }
 
