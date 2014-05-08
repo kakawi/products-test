@@ -1,11 +1,10 @@
 <?php
 if (isset($_GET['sum'])) {
 $sum = $_GET['sum'];
-$products = new Products('data.xml');
+$products = new Products('../data/data.xml');
 
 $products->setSum($sum);
 $products->findGoods();
-    sleep(3);
 echo $products->getResult();
 }
 
