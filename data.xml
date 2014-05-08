@@ -1,0 +1,28 @@
+<!DOCTYPE products SYSTEM "tutorial.dtd">
+<products>
+    <product>
+        <title>Fred</title>
+        <price>100</price>
+        <description>Male</description>
+    </product>
+    <product>
+        <title>Blogs</title>
+        <price>200</price>
+        <description>Male</description>
+    </product>
+    <product>
+        <title>IRAL</title>
+        <price>300</price>
+        <description>Male</description>
+    </product>
+    <product>
+        <title>AER</title>
+        <price>400</price>
+        <description>Male</description>
+    </product>
+    <product>
+        <title>SUUS</title>
+        <price>200</price>
+        <description>Male</description>
+    </product>
+</products>
